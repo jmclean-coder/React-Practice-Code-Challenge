@@ -30,9 +30,7 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state)
     return (
-  
       <div className="app">
         <SushiContainer handleClick={this.handleClick} sushis={this.state.sushis} />
         <Table eatenSushis={this.state.emptyPlates} wallet={this.state.wallet} />
